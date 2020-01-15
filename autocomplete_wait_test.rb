@@ -15,3 +15,5 @@ wait.until { driver.find_element(class: 'pac-item').displayed? }
 
 autocomplete_result = driver.find_element(class: 'pac-item')
 autocomplete_result.click
+
+driver.quit
